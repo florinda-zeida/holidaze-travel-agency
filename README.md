@@ -1,7 +1,7 @@
 # LOGGIN
 
-user: ina23
-password: Password2021
+user: admin@admin.com
+password: Password1234
 
 # Getting Started with Create React App
 
