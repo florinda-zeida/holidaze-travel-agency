@@ -1,0 +1,103 @@
+h1{
+  font-family: $font-family-hind;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3,h2, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+/*  find accommodation  */
+h3 {
+  font-size: 18px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  font-weight: 400;
+  padding-top: 15px;
+ 
+}
+
+
+p {
+  font-size: 16px;
+  font-family: $font-family-paragraph;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+
+h4{
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  
+}
+h5{
+  font-weight: 300;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.paragraf-intro-pages{
+  max-width: 700px;
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+hr {
+  border: 0.5px solid $colour-primary_dark;
+}
+
+
+.special_font{
+  font-family: $font-family-arizonia;
+  font-size: 30px;
+  text-align: center;
+   margin: 0px;
+   margin-top: 20px;
+   margin-left: 120px;
+   margin-bottom: 40px;
+   color: $colour-primary_dark;
+}
+
+.copyright p{
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 12px;
+}
+
+@media only screen and (min-width:$media-md) {
+  h3{
+    font-size: 28px;
+  }
+
+  .special_font {
+    font-size: 40px;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width:$media-lg) {
+  .special_font {
+    margin-left: 250px;
+  }
+}
+
+@media only screen and (min-width:$media-lg-xx) {
+
+  .special_font {
+    margin-left: 450px;
+  }
+}
+  

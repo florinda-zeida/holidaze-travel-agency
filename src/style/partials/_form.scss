@@ -1,0 +1,34 @@
+.section_content_form{
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+
+}
+
+.form_control{
+  border: 1px solid $colour-primary_dark;
+}
+
+.select-form-img{
+  width: 100%;
+  padding: 7px;
+  outline: none;
+}
+
+/*---confirmation---*/
+
+.confirmation{
+  max-width: 500px;
+  margin: 0px auto;
+  background-color: $colour-primary;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: center;
+  color: $colour-white;
+}
+
+.confirmation h2{
+  padding: 10px 0px;
+
+}
+

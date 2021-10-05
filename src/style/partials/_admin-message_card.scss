@@ -1,0 +1,73 @@
+.select-form-img{
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid $colour-primary_dark;
+  height:40px;
+  line-height: 50px;
+}
+
+.flex-group_admin{
+  padding-top: 10px;
+}
+
+.card-admin{
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid $colour-primary_dark;
+}
+
+.card-admin_title{
+  text-transform: capitalize;
+}
+
+.card-admin_text{
+  color:$colour-accent;
+}
+
+
+.flex-group_admin hr{
+  margin-top: 3px;
+  }
+
+.flex-group_admin b{
+padding-right: 10px;
+font-weight: 600;
+
+}
+
+//STYLE-ICON
+.card-icon{
+  padding: 6px 0px;
+}
+
+.card-admin .icon-text{
+  display: none;
+  font-size: 18px;
+}
+
+.card-new .icon-text {
+  display: block;
+  color: $colour-accent;
+}
+
+.card-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-new{
+  border: 2px solid $colour-accent;
+  
+}
+
+.card-admin .icon{
+  color: green;
+  margin-right: 5px;
+}
+
+.card-new .icon{
+  color: $colour-accent;
+ 
+}

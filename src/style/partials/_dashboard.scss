@@ -1,0 +1,26 @@
+.section_content_dashboard{
+  max-width: 1240px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.menu-dashboard{
+  visibility: hidden;
+  max-width: 900px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+@media only screen and (min-width:$media-lg-xx) {
+  .menu-dashboard{
+    visibility: visible;
+    
+    
+  }
+
+}

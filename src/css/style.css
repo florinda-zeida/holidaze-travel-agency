@@ -1,0 +1,824 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.wraper {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_app {
+  min-height: 100vh;
+  width: auto;
+  margin: 0px auto;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.main_index {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_pages {
+  margin-top: 100px;
+  flex: 1 0 auto;
+}
+
+.main_container {
+  padding: 10px;
+}
+
+/*---accommodation-page---*/
+.section_content_search {
+  max-width: 80%;
+  margin: 0px auto;
+  padding: 30px;
+  padding-bottom: 5px;
+}
+
+.result-search {
+  text-align: center;
+  font-weight: 400;
+  text-transform: lowercase;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #2D5972;
+}
+
+.search {
+  border: 1px solid #2D5972;
+}
+
+h1 {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3, h2, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*  find accommodation  */
+h3 {
+  font-size: 18px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+h5 {
+  font-weight: 300;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.paragraf-intro-pages {
+  max-width: 700px;
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+hr {
+  border: 0.5px solid #2D5972;
+}
+
+.special_font {
+  font-family: "Arizonia", cursive, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-bottom: 40px;
+  color: #2D5972;
+}
+
+.copyright p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 12px;
+}
+
+@media only screen and (min-width: 767px) {
+  h3 {
+    font-size: 28px;
+  }
+  .special_font {
+    font-size: 40px;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .special_font {
+    margin-left: 250px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .special_font {
+    margin-left: 450px;
+  }
+}
+
+.button {
+  background-color: #F25C05;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 7px 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #C94C04;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-menu {
+  background-color: #ffffff;
+  color: #F25C05;
+  border: none;
+  text-transform: uppercase;
+}
+
+/*-----BUTTON-LOG-IN----*/
+.btn-log {
+  margin: 20px 10px;
+  padding: 6px 30px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.btn-log:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-form {
+  width: 100%;
+  padding: 11px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.btn_card {
+  margin: 4px;
+}
+
+.btn_edit {
+  background-color: #2D5972;
+}
+
+.btn_edit:hover {
+  background-color: #30728C;
+}
+
+.btn-visit-bergen {
+  margin: 0px;
+  padding: 6px 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .btn-log {
+    font-size: 19px;
+  }
+}
+
+/*-----BUTTON-CARD----*/
+.btn-card {
+  padding: 7px 30px;
+}
+
+.link-footer {
+  color: #ffffff;
+  transition: 0.4s ease;
+  text-decoration: underline;
+  margin-bottom: 7px;
+}
+
+.link-footer:hover {
+  color: #ffffff;
+  opacity: 60%;
+}
+
+.brand_footer {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  font-size: "Hind Madurai", sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px 20px;
+}
+
+#basic-navbar-nav {
+  border-top: 3px solid #2D5972;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.style-link {
+  color: #30728C;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 7px 0px;
+}
+
+.style-link:hover {
+  color: #F25C05;
+  text-decoration: none;
+  transition: .4s;
+}
+
+#collasible-nav-dropdown {
+  color: #F25C05;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #12993f;
+}
+
+.style-link_dropdown {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  color: #12993f;
+}
+
+.style-link_dropdown .style-link {
+  color: #12993f;
+  font-size: 16px;
+  padding: 7px 10px;
+  margin: 0px;
+}
+
+.style-link_dropdown .style-link:hover {
+  color: #F25C05;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+  #basic-navbar-nav {
+    border-top: none;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .style-link {
+    padding: 10px;
+    margin-top: 15px;
+  }
+  #collasible-nav-dropdown {
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .style-link_dropdown {
+    width: 260px;
+    font-size: 17px;
+    padding: 10px 10px;
+  }
+}
+
+.footer {
+  margin: 0px;
+  width: 100%;
+  background-color: #30728C;
+  color: #ffffff;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.footer_inner {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.footer_inner p {
+  margin-bottom: 7px;
+}
+
+.copyright {
+  background-color: #2D5972;
+  padding: 3px 0px;
+}
+
+@media only screen and (min-width: 767px) {
+  .footer-item {
+    max-width: 1020px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_inner {
+    text-align: left;
+  }
+}
+
+.hero_index {
+  margin-top: 90px;
+}
+
+.hero_img-overlay {
+  text-align: center;
+  margin-top: 30%;
+  color: #2D5972;
+}
+
+.hero_title {
+  font-size: 22px;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+}
+
+.hero_sub-title {
+  display: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-hero {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 500px) {
+  .hero_img-overlay {
+    margin-top: 22%;
+  }
+  .hero_title {
+    font-size: 26px;
+  }
+  .hero_sub-title {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .hero_img-overlay {
+    margin-top: 22%;
+  }
+  .hero_title {
+    font-size: 32px;
+  }
+  .hero_sub-title {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .hero_title {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .hero_sub-title {
+    font-size: 24px;
+  }
+  .btn-hero {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .hero_title {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .hero_sub-title {
+    font-size: 26px;
+  }
+  .btn-hero {
+    font-size: 20px;
+  }
+}
+
+.section_dropdown {
+  width: 100%;
+  background-color: #30728C;
+  text-align: center;
+}
+
+.rbt-input {
+  margin: 0px auto;
+  border: 2px solid #2D5972;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.rbt-input:focus {
+  background-color: #ffffff;
+  border-color: #2D5972;
+  outline: 0;
+  transition: 0.3s;
+}
+
+.dropdown-item {
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #2D5972;
+  color: #ffffff;
+}
+
+.col_typeahead {
+  width: 60%;
+  padding: 15px 0px 25px 0px;
+  margin: 0px auto;
+  background-color: #30728C;
+  border-radius: 0px;
+  border: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .section_dropdown {
+    padding: 20px;
+  }
+}
+
+.section_vision {
+  max-width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 25px 5px;
+  margin-top: 10px;
+}
+
+.paragraf_style {
+  font-size: 17px;
+  white-space: pre-wrap;
+}
+
+@media only screen and (min-width: 500px) {
+  .paragraf_style {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .paragraf_style {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section_vision {
+    max-width: 1050px;
+    padding-top: 30px;
+  }
+  .paragraf_style {
+    font-size: 19px;
+  }
+}
+
+.section_vision {
+  max-width: 90%;
+  margin: 0px auto;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.section_visit_bergen {
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.visit-bergen_card {
+  margin: 10px;
+  padding: 10px;
+}
+
+.visit-bergen_body {
+  margin: 0px;
+  padding: 2px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.visit-bergen_title {
+  font-size: 24px;
+  font-family: "Hind Madurai", sans-serif;
+  padding-top: 5px;
+}
+
+.visit-bergen_footer {
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+@media only screen and (min-width: 992px) {
+  .visit-bergen_group {
+    max-width: 75%;
+    margin: 0px auto;
+  }
+  .visit-bergen_card {
+    margin: 10px 30px;
+  }
+}
+
+.flex-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.accommodation_card {
+  width: 320px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+
+.accommodation_info {
+  margin-bottom: 10px;
+}
+
+.accommodation_body {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.accommodation_title_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.accommodation_title {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.accommodation_title::first-letter {
+  text-transform: capitalize;
+}
+
+.accommodation_star {
+  margin: 0px 8px;
+}
+
+.star {
+  fill: #F25C05;
+}
+
+.accommodation_location {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.accommodation_location::first-letter {
+  text-transform: capitalize;
+}
+
+.accommodation_price b {
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: 500;
+  color: #2D5972;
+}
+
+.accommodation_price span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.accommodation_footer {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 992px) {
+  .accommodation_card {
+    width: 340px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+}
+
+.accommodation_card_detail {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.card_detail_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accommodation_flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.accommodation_sub-title {
+  color: #2D5972;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 500px) {
+  .flex_column {
+    display: flex;
+    flex-direction: column;
+  }
+  .accommodation_title_flex {
+    align-items: flex-start;
+  }
+}
+
+.section_content_form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.form_control {
+  border: 1px solid #2D5972;
+}
+
+.select-form-img {
+  width: 100%;
+  padding: 7px;
+  outline: none;
+}
+
+/*---confirmation---*/
+.confirmation {
+  max-width: 500px;
+  margin: 0px auto;
+  background-color: #30728C;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.confirmation h2 {
+  padding: 10px 0px;
+}
+
+.select-form-img {
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid #2D5972;
+  height: 40px;
+  line-height: 50px;
+}
+
+.flex-group_admin {
+  padding-top: 10px;
+}
+
+.card-admin {
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #2D5972;
+}
+
+.card-admin_title {
+  text-transform: capitalize;
+}
+
+.card-admin_text {
+  color: #F25C05;
+}
+
+.flex-group_admin hr {
+  margin-top: 3px;
+}
+
+.flex-group_admin b {
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.card-icon {
+  padding: 6px 0px;
+}
+
+.card-admin .icon-text {
+  display: none;
+  font-size: 18px;
+}
+
+.card-new .icon-text {
+  display: block;
+  color: #F25C05;
+}
+
+.card-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-new {
+  border: 2px solid #F25C05;
+}
+
+.card-admin .icon {
+  color: green;
+  margin-right: 5px;
+}
+
+.card-new .icon {
+  color: #F25C05;
+}
+
+.section_content_dashboard {
+  max-width: 1240px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.menu-dashboard {
+  visibility: hidden;
+  max-width: 900px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+@media only screen and (min-width: 1150px) {
+  .menu-dashboard {
+    visibility: visible;
+  }
+}
+
+.error-alert {
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.error-b {
+  color: #ec3f48;
+}
+/*# sourceMappingURL=style.css.map */

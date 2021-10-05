@@ -1,0 +1,85 @@
+.button{
+  background-color: $colour-accent;
+  outline:none;
+  border:none;
+  cursor: pointer;
+  color: $colour-white;
+  border-radius: 5px;
+  padding: 7px 30px;
+  text-align: center;
+  color: $colour-white;
+
+  &:hover {
+    background-color: $colour-accent_dark;
+    color: $colour-white;
+    text-decoration: none;
+   
+  }
+}
+
+.btn-menu{
+  background-color: $colour-white;
+  color: $colour-accent; 
+  border: none;
+  text-transform: uppercase;
+}
+
+/*-----BUTTON-LOG-IN----*/
+.btn-log{
+margin: 20px 10px;
+padding: 6px 30px;
+font-size: 17px;
+margin-bottom: 20px;
+border-radius: 5px;
+
+&:hover {
+  color: $colour-white;
+  text-decoration: none;
+ 
+}
+}
+
+.btn-form{
+  width: 100%;
+  padding: 11px;
+  font-size: 18px;
+  margin-top: 20px;
+  
+}
+
+.btn_card{
+  margin: 4px;
+
+}
+
+.btn_edit{
+  background-color: $colour-primary_dark;
+
+  &:hover {
+    background-color: $colour-primary;
+   
+  }
+}
+
+.btn-visit-bergen{
+  margin: 0px;
+  padding: 6px 30px;
+}
+
+
+@media only screen and (min-width:$media-lg) {
+  .btn-log{
+    font-size: 19px;
+  }
+
+}
+
+
+/*-----BUTTON-CARD----*/
+
+.btn-card{
+  padding: 7px 30px;
+}
+
+
+

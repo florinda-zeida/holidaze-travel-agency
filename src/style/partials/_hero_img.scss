@@ -1,0 +1,104 @@
+.hero_index{
+  margin-top: 90px;
+}
+
+.hero_img-overlay{
+  text-align: center;
+  margin-top: 30%;
+  color: $colour-primary_dark;
+}
+
+.hero_title{
+  font-size: 22px;
+  font-family:$font-family-hind ;
+  font-weight: 500;
+
+}
+
+.hero_sub-title{
+  display: none;
+  font-size: 20px;
+  font-family: $font-family-montserrat;
+
+}
+
+.btn-hero{
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+@media only screen and (min-width:$media-sm) {
+  .hero_img-overlay{
+    margin-top: 22%;
+  }
+  
+  .hero_title{
+    font-size: 26px;
+   
+  }
+  .hero_sub-title{
+    display: block;
+  
+  }
+
+}
+
+@media only screen and (min-width:$media-md) {
+
+  .hero_img-overlay{
+    margin-top: 22%;
+  }
+  
+  .hero_title{
+    font-size: 32px;
+   
+  }
+  .hero_sub-title{
+    font-size: 22px;
+    font-weight: 500;
+  
+  }
+
+}
+
+@media only screen and (min-width:$media-lg) {
+
+  
+  .hero_title{
+    font-size: 36px;
+    font-weight: 600;
+   
+  }
+  .hero_sub-title{
+    font-size: 24px;
+  
+  }
+
+  .btn-hero{
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  
+
+}
+
+@media only screen and (min-width:$media-lg-xx) {
+
+  
+  .hero_title{
+    font-size: 40px;
+    font-weight: 700;
+   
+  }
+  .hero_sub-title{
+    font-size: 26px;
+  
+  }
+
+  .btn-hero{
+    font-size: 20px;
+  }
+  
+
+}
+

@@ -1,0 +1,68 @@
+*,
+  *:after,
+  *:before {
+      margin: 0;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box; 
+  }
+
+  .wraper{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .container_app{
+    min-height: 100vh;
+    width: auto;
+    margin: 0px auto;
+    background-color: $colour-white;
+    color: $colour-black;
+  }
+
+  .main_index{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner_pages{
+    margin-top: 100px;
+    flex: 1 0 auto;
+  }
+
+
+  .main_container{
+    padding: 10px;
+  }
+
+  
+
+
+  /*---accommodation-page---*/
+
+  .section_content_search{
+    max-width: 80%;
+    margin: 0px auto;
+    padding: 30px;
+    padding-bottom: 5px;
+  }
+
+  .result-search{
+    text-align: center;
+    font-weight: 400;
+    text-transform:lowercase;
+    margin-bottom: 20px;
+    font-family: $font-family-montserrat;
+    color: $colour-primary_dark;
+
+  }
+
+  .search{
+    border: 1px solid $colour-primary_dark;
+  }
+
+
+  
